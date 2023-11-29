@@ -6,7 +6,9 @@ import svgo from "lume/plugins/svgo.ts";
 import inline from "lume/plugins/inline.ts";
 import metas from "lume/plugins/metas.ts";
 
-const site = lume()
+const site = lume({
+  location: new URL("https://index.gal"),
+})
   .use(vento())
   .use(lightningcss())
   .use(svgo())
