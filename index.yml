@@ -1,0 +1,26 @@
+title: Únete á nosa **comunidade tecnolóxica** de radicais galegofalantes!!
+layout: layout.vto
+metas:
+  icon: /apple-touch-icon.png
+  description: index.gal é unha comunidade onde se fala de tecnoloxía en galego.
+
+cta:
+  icon: /discord.svg
+  text: Entra no Discord
+  url: https://discord.gg/gXdUWkGx3U
+
+rules:
+  - Falamos de tecnoloxía 💻
+  - Facémolo en galego 👌
+  - Somos boa xente
+
+links:
+  - text: Discord
+    icon: /discord.svg
+    url: https://discord.gg/gXdUWkGx3U
+  - text: GitHub
+    icon: /github.svg
+    url: https://github.com/index-gal
+
+copy:
+  Sitio feito con [Lume](https://lume.land) e [Carme](https://fonts.google.com/specimen/Carme)

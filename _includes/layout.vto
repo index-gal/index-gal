@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <img src="/index.gal.svg" width="100" height="100">
+    <h1>{{ title |> md(true) }}</h1>
+  </header>
+
+  <a href="{{ cta.url }}" class="button">
+    <img src="{{ cta.icon }}" inline>
+    {{ cta.text }}
+  </a>
+  
+  <ul class="rules">
+    {{ for rule of rules }}
+      <li>{{ rule }}</li>
+    {{ /for }}
+  </ul>
+
+  <footer>
+    <ul>
+    {{ for link of links }}
+      <li><a href="{{ link.url }}">
+        <img src="{{ link.icon }}" inline>
+        {{ link.text }}
+      </a></li>
+    {{ /for }}
+    </ul>
+
+    {{ copy |> md }}
+  </footer>
+</body>
+</html>
