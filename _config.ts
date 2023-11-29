@@ -19,6 +19,7 @@ const site = lume({
   .use(favicon({
     input: "index.gal.svg",
   }))
-  .copy("index.gal.svg");
+  .copy("index.gal.svg")
+  .copy("CNAME");
 
 export default site;
