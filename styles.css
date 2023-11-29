@@ -95,6 +95,8 @@ footer {
   margin-top: 5vh;
   p {
     color: var(--foreground-light);
+    margin-top: 2em;
+    
     a {
       color: inherit;
     }
