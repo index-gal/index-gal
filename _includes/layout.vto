@@ -23,6 +23,29 @@
     {{ /for }}
   </ul>
 
+  {{ if it.events }}
+  <h2>Próximas quedadas:</h2>
+
+  <ul class="events">
+  {{ for event of events }}
+    <li class="event">
+      <h3>{{ event.title }}</h3>
+      <time>
+        {{ event.time |> date("HUMAN_DATE") }}
+        ás
+        {{ event.time |> date("HH:mm") }}h
+
+        {{ if event.calendar }}
+          | 👉 <a href="{{ event.calendar}}">Gardar no Google Calendar</a>
+        {{ /if }}
+      </time>
+
+      {{ event.description |> md }}
+    </li>
+  {{ /for }}
+  </ul>
+  {{ /if }}
+
   <footer>
     <ul>
     {{ for link of links }}
