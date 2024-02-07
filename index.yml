@@ -23,8 +23,11 @@ links:
   - text: GitHub
     icon: /github.svg
     url: https://github.com/index-gal
+  - text: YouTube
+    icon: /youtube.svg
+    url: https://www.youtube.com/@IndexGal
 
-events:
+_events:
   - time: 2024-01-24 19:00
     title: Sitios estáticos con 🔥Lume
     # https://www.labnol.org/calendar/
