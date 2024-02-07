@@ -106,7 +106,8 @@ footer {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 3em;
+    gap: min(8vw, 3em);
+    flex-wrap: wrap;
 
     svg {
       width: 1.5em;
@@ -115,7 +116,7 @@ footer {
     a {
       display: flex;
       align-items: center;
-      gap: 1em;
+      gap: .6em;
     }
   }
 }
