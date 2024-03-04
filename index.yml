@@ -27,13 +27,13 @@ links:
     icon: /youtube.svg
     url: https://www.youtube.com/@IndexGal
 
-_events:
-  - time: 2024-01-24 19:00
-    title: Sitios estáticos con 🔥Lume
+events:
+  - time: 2024-03-07 19:00
+    title: Proxecto VOGAL / traballando con streaming
     # https://www.labnol.org/calendar/
-    calendar: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240124T180000Z%2F20240124T184500Z&details=%C3%93scar%20Otero%20falar%C3%A1%20sobre%20que%20son%20os%20sitios%20est%C3%A1ticos%20e%20como%20crealos%20con%20Lume%20%28https%3A%2F%2Flume.land%2F%29%2C%20o%20xerador%20de%20sitios%20est%C3%A1ticos%20para%20Deno%20que%20%C3%A9l%20mesmo%20fixo.%0ASer%C3%A1%20unha%20quedada%20virtual%20por%20Jitsi%20aberta%20a%20todo%20o%20mundo.%0A%0APara%20unirte%2C%20entra%20nesta%20ligaz%C3%B3n%20o%20d%C3%ADa%20da%20quedada%3A%20https%3A%2F%2Fmeet.jit.si%2Fcomunidade_index_gal.&text=Sitios%20est%C3%A1ticos%20con%20Lume
+    calendar: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240307T180000Z%2F20240307T190000Z&details=In%C3%A9s%20San%20Lu%C3%ADs%20e%20a%20persoa%20que%20est%C3%A1%20detr%C3%A1s%20do%20proxecto%20VOGAL%20%28https%3A%2F%2Fwww.vogal.es%2F%29%2C%20e%20tam%C3%A9n%20traballa%20de%20frontend%20en%20Telia%20Play%20%28https%3A%2F%2Fwww.teliaplay.se%2F%29%2C%20aplicaci%C3%B3n%20sueca%20de%20streaming%20de%20pel%C3%ADculas.%0ASer%C3%A1%20unha%20quedada%20virtual%20por%20Jitsi%20aberta%20a%20todo%20o%20mundo.%0A%0APara%20unirte%2C%20entra%20nesta%20ligaz%C3%B3n%20o%20d%C3%ADa%20da%20quedada%3A%20https%3A%2F%2Fmeet.jit.si%2Fcomunidade_index_gal.&text=Proxecto%20VOGAL%20%2F%20traballando%20con%20streaming
     description: |
-      Óscar Otero falará sobre webs estáticas e como crealas con [Lume](https://lume.land/), o xerador de sitios estáticos para **Deno** feito por el.
+      Inés San Luís e a persoa que está detrás do proxecto [VOGAL](https://www.vogal.es/), e tamén traballa de frontend en [Telia Play](https://www.teliaplay.se/), aplicación sueca de streaming de películas.
       Será unha quedada virtual por Jitsi aberta a todo o mundo.
       
       Para unirte, [entra nesta ligazón o día da quedada](https://meet.jit.si/comunidade_index_gal).
