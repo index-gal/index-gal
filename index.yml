@@ -27,7 +27,8 @@ links:
     icon: /youtube.svg
     url: https://www.youtube.com/@IndexGal
 
-events:
+events: []
+_events:
   - time: 2024-03-07 19:00
     title: Proxecto VOGAL / traballando con streaming
     # https://www.labnol.org/calendar/
