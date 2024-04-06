@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ metas.title }}</title>
   <link rel="stylesheet" href="/styles.css">
+  <script src="/lite-yt-embed.js"></script>
 </head>
 <body>
   <header>
@@ -45,6 +46,17 @@
   {{ /for }}
   </ul>
   {{ /if }}
+
+  <h2>Quedadas anteriores:</h2>
+  <ul class="events">
+  {{ for event of past_events }}
+    <li class="event is-past">
+      <h3>{{ event.title }}</h3>
+      {{ event.description |> md }}
+      <lite-youtube videoid="{{ event.video }}" playlabel="Ver gravación da quedada"></lite-youtube>
+    </li>
+  {{ /for }}
+  </ul>
 
   <footer>
     <ul>

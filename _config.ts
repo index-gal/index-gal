@@ -24,6 +24,15 @@ const site = lume({
     input: "index.gal.svg",
   }))
   .copy("index.gal.svg")
-  .copy("CNAME");
+  .copy("CNAME")
+  .copy([".js"])
+  .remoteFile(
+    "lite-yt-embed.js",
+    "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.1/src/lite-yt-embed.js",
+  )
+  .remoteFile(
+    "lite-yt-embed.css",
+    "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.1/src/lite-yt-embed.css",
+  );
 
 export default site;

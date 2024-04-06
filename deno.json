@@ -5,7 +5,12 @@
     "serve": "deno task lume -s"
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.0.3/"
+    "lume/": "https://deno.land/x/lume@v2.1.3/"
   },
-  "lock": false
+  "lock": false,
+  "compilerOptions": {
+    "types": [
+      "lume/types.ts"
+    ]
+  }
 }
