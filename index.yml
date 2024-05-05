@@ -27,7 +27,7 @@ links:
     icon: /youtube.svg
     url: https://www.youtube.com/@IndexGal
 
-events:
+_events:
   - time: 2024-04-25 19:00
     title: WordPress dende dentro
     description: |
@@ -37,6 +37,10 @@ events:
     # https://www.labnol.org/calendar/
     calendar: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240425T170000Z%2F20240425T180000Z&details=Andr%C3%A9%20Maneiro%20traballa%20en%20Automattic%20como%20desenvolvedor%20de%20Gutemberg%20e%20WordPress.%20Nesta%20charla%20falaranos%20como%20%C3%A9%20o%20seu%20d%C3%ADa%20a%20d%C3%ADa%20traballando%20nun%20proxecto%20tan%20grande%20e%20con%20tanto%20impacto.%0A%0APara%20unirte%2C%20entra%20nesta%20ligaz%C3%B3n%20o%20d%C3%ADa%20da%20quedada%3A%20https%3A%2F%2Fmeet.jit.si%2Fcomunidade_index_gal.&text=WordPress%20dende%20dentro
 past_events:
+  - title: WordPress dende dentro
+    video: 3FDg5kyBPEU
+    description: |
+      André Maneiro traballa en Automattic como desenvolvedor de Gutenberg e WordPress. Nesta charla falaranos como é o seu día a día traballando nun proxecto tan grande e con tanto impacto.
   - title: Traballando con streaming
     video: Jdd-z4aXiME
     description: |
