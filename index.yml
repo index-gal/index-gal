@@ -27,15 +27,15 @@ links:
     icon: /youtube.svg
     url: https://www.youtube.com/@IndexGal
 
-_events:
-  - time: 2024-04-25 19:00
-    title: WordPress dende dentro
+events:
+  - time: 2024-05-30 19:00
+    title: Código creativo
     description: |
-      André Maneiro traballa en Automattic como desenvolvedor de Gutenberg e WordPress. Nesta charla falaranos como é o seu día a día traballando nun proxecto tan grande e con tanto impacto.
+      Marta Verde é unha artista visual e docente que utiliza o código como ferramenta creativa. Nas súa quedada falaranos de interactividade, aleatoriedade e chiribitas en tempo real.
 
       Para unirte, [entra nesta ligazón o día da quedada](https://meet.jit.si/comunidade_index_gal).
     # https://www.labnol.org/calendar/
-    calendar: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240425T170000Z%2F20240425T180000Z&details=Andr%C3%A9%20Maneiro%20traballa%20en%20Automattic%20como%20desenvolvedor%20de%20Gutemberg%20e%20WordPress.%20Nesta%20charla%20falaranos%20como%20%C3%A9%20o%20seu%20d%C3%ADa%20a%20d%C3%ADa%20traballando%20nun%20proxecto%20tan%20grande%20e%20con%20tanto%20impacto.%0A%0APara%20unirte%2C%20entra%20nesta%20ligaz%C3%B3n%20o%20d%C3%ADa%20da%20quedada%3A%20https%3A%2F%2Fmeet.jit.si%2Fcomunidade_index_gal.&text=WordPress%20dende%20dentro
+    calendar: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240530T170000Z%2F20240530T180000Z&details=Marta%20Verde%20%C3%A9%20unha%20artista%20visual%20e%20docente%20que%20utiliza%20o%20c%C3%B3digo%20como%20ferramenta%20creativa.%20Nas%20s%C3%BAa%20quedada%20falaranos%20de%20interactividade%2C%20aleatoriedade%20e%20chiribitas%20en%20tempo%20real.%0A%0APara%20unirte%2C%20entra%20nesta%20ligaz%C3%B3n%20o%20d%C3%ADa%20da%20quedada%20https%3A%2F%2Fmeet.jit.si%2Fcomunidade_index_gal&text=C%C3%B3digo%20creativo
 past_events:
   - title: WordPress dende dentro
     video: 3FDg5kyBPEU
