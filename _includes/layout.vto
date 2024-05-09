@@ -36,12 +36,25 @@
         ás
         {{ event.time |> date("HH:mm") }}h
 
-        {{ if event.calendar }}
-          | 👉 <a href="{{ event.calendar}}">Gardar no Google Calendar</a>
-        {{ /if }}
+        · 👉 <a href="{{
+          {
+            title: event.title,
+            start: event.time,
+            duration: [1, 'hour'],
+            description: `
+            ${event.description}
+            Para unirte, entra nesta ligazón: https://meet.jit.si/comunidade_index_gal.
+            `
+          } |> google_calendar }}">
+          Google Calendar
+        </a>
       </time>
 
       {{ event.description |> md }}
+
+      {{ echo |> md }}
+      Para unirte, [entra nesta ligazón o día da quedada](https://meet.jit.si/comunidade_index_gal).
+      {{ /echo }}
     </li>
   {{ /for }}
   </ul>
