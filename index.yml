@@ -27,12 +27,12 @@ links:
     icon: /youtube.svg
     url: https://www.youtube.com/@IndexGal
 
-events:
-  - time: 2024-06-03 19:00
-    title: Código creativo
+events: []
+past_events:
+  - title: Código creativo
+    video: qtoCvyFu0fQ
     description: |
       Marta Verde é unha artista visual e docente que utiliza o código como ferramenta creativa. Nas súa quedada falaranos de interactividade, aleatoriedade e chiribitas en tempo real.
-past_events:
   - title: WordPress dende dentro
     video: 3FDg5kyBPEU
     description: |
